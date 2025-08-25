@@ -1,4 +1,4 @@
-t-with-podcast
+# chat-with-podcast
 Recieve dms from podcasts with AI Summaries and Chat with the transcript.
 
 ## Initial goals
@@ -18,4 +18,8 @@ source venv/bin/activate
 
 ```zsh
 pip install -U openai-whisper
+pip install transformers
+pip install sentencepiece
+pip install fastt5
+
 ```
